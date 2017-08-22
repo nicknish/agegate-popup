@@ -1,0 +1,31 @@
+/* AgeGate Popup Container Styles */
+
+.popup-container {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  padding: 40px;
+  margin: 80px auto 0;
+  background: white;
+}
+
+.popup-container {
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-body {
+  box-sizing: border-box;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.popup-btn {
+  box-sizing: border-box;
+  padding: 6px 12px;
+  margin-right: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,.2);
+}

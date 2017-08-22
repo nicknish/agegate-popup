@@ -1,5 +1,5 @@
 /*!
- * AgeGate Popup v0.0.1
+ * AgeGate Popup v0.0.11
  * https://github.com/nicknish/agegate-popup
  *
  * Copyright 2017 Nicholas Nishiguchi
@@ -35,13 +35,13 @@
       this.container.innerHTML = [
         '<div class="popup-backdrop" style="z-index: 1000; position: fixed; top: 0; right: 0; left: 0; bottom: 0; background-color: #242629; opacity: 0.78; overflow-x: hidden; overflow-y: auto;"></div>',
         '<div class="popup-modal" style="z-index: 1001; position: fixed; top: 0; right: 0; left: 0; bottom: 0; padding: 10px;">',
-          '<div class="popup-container" style="box-sizing: border-box; position: relative; width: 100%; max-width: 350px; padding: 40px; margin: 80px auto 0; background: white;">',
-            '<div class="popup-body" style="font-size: 26px; margin-bottom: 20px;">',
+          '<div class="popup-container">',
+            '<div class="popup-body">',
               this.options.body,
             '</div>',
             '<div class="popup-actions">',
-              '<button class="popup-btn popup-agree" style="padding: 6px 12px; margin-right: 10px; border: none; font-size: 20px; background-color: rgba(0,0,0,.2); cursor: pointer;">Yes</button>',
-              '<button class="popup-btn popup-cancel" style="padding: 6px 12px; border: none; font-size: 20px; background-color: rgba(0,0,0,.2); cursor: pointer;">No</button>',
+              '<button class="popup-btn popup-agree">Yes</button>',
+              '<button class="popup-btn popup-cancel">No</button>',
             '</div>',
           '</div>',
         '</div>'
