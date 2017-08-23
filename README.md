@@ -58,5 +58,5 @@ new Agegate({
 4. Add notes about dependencies, file size, and supported browsers.
 5. Add Webpack to handle a lot of the heavy-loading and maintenance of this repo.
 
-## Bugs?
+## Bugs or Having trouble?
 Create a [new issue](https://github.com/nicknish/agegate-popup/issues/new) here.
